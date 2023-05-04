@@ -1,0 +1,171 @@
+.b1 {
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 163px;
+    background-color: #09090a;
+    /* color: bisque; */
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* button:hover {
+    background-color: darkblue;
+} */
+
+button:active {
+    transform: translate(0, 2px);
+}
+
+#home_button.button::before {
+    content: url("home.png");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#home_button.button:hover::after {
+    content: "Home";
+    position: absolute;
+    background-color: #201818;
+    padding: 10px;
+    color: aqua;
+    /* border: 1px solid #000000; */
+    z-index: 1;
+    /* left: -100px;
+    top: 0; */
+    /* top: 100%;
+    display: block;
+    text-align: center; */
+}
+
+
+/* 
+#Skills {
+    background-color: antiquewhite; */
+
+
+/* }
+
+#Experience {
+    background-color: blueviolet;
+}
+
+#frame3 {
+    background-color: azure;
+}
+
+#personalprojects {
+    background-color: #f9a825;
+}
+
+#Contactme {
+    background-color: blueviolet;
+} */
+
+.personalinfo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    /* padding: 8px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* footer {
+    background-color: black;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+} */
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-container,
+.left,
+#copyright {
+    color: white;
+}
+
+.Moredetails {
+    width: 112px;
+    height: 21px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 163px;
+    background-color: #111016;
+    /* color: bisque; */
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.top_right {
+    /* background-color: #6289A3; */
+    /* background-repeat: repeat-x; */
+    color: #FFFFFF;
+    /* float: left;
+    padding: 0;
+    width: 800px;
+    clear: right;
+    height: 600px; */
+    padding-top: 10px;
+}
